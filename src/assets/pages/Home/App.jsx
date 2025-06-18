@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="hero-banner">
-        <img src="./src/assets/img/hb-special offer.png" alt="hero-banner" />
+        <img src="/hb-special-offer.png" alt="hero-banner" />
       </div>
       <div className="container">
         <section className="categories">

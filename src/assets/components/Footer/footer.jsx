@@ -26,7 +26,7 @@ function Footer() {
         <div className="left">
           <div>
             <img
-              src="/public/techstore-berhad.png"
+              src="/techstore-berhad.png"
               alt="techstore-logo"
             />
             <p>
