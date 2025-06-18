@@ -116,7 +116,11 @@ function App() {
           </p>
           <button>Learn More</button>
         </div>
-        <img className="discount-banner-img" src="./src/assets/img/cards.png" alt="discount-banner" />
+        <img
+          className="discount-banner-img"
+          src="/cards.png"
+          alt="discount-banner"
+        />
       </div>
       <Footer />
     </div>
