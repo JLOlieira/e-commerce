@@ -1,4 +1,4 @@
-import './Rating.css';
+import './rating.css';
 
 export default function Rating({ value }) {
   const percentage = (value / 5) * 100;
