@@ -1,0 +1,111 @@
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+}
+.hero-banner{
+    width: 100%;
+    height: 450px;
+    background-color: #d3d3d3;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.categories{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+.categories-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+h2{
+    font-size: 1.5rem;
+    color: var(--black);
+}
+.product-list-container{
+    display: flex;
+    overflow-x: scroll;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    padding-bottom: 3rem;
+    height: 100%;
+}
+.product-list-container::-webkit-scrollbar{
+    height: 8px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+}
+.product-list-container::-webkit-scrollbar-thumb{
+    background-color: var(--dark-green);
+    border-radius: 10px;
+    border: none;
+}
+.brands{
+    margin-top: 4rem;
+}
+.brands-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.discount-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: max-content;
+    background-color: var(--light-yellow);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 4rem 0;
+
+    h2{
+        font-size: 3.5rem;
+        color: var(--black);
+    }
+    p{
+        font-size: 1.5rem;
+        color: var(--dark-grey);
+        font-weight: 500;
+        span{
+            color: var(--light-green);
+            font-weight: 600;
+        }
+    }
+    button{
+        background-color: var(--dark-green);
+        color: var(--white);
+        border: none;
+        padding: 1rem 3rem;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    button:hover{
+        background-color: var(--light-green);
+    }
+
+    img{
+        width: 300px;
+        height: auto;
+    }
+}

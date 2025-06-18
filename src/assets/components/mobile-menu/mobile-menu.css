@@ -1,0 +1,138 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .menu-container {
+    background-color: var(--white);
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    animation: openSideMenu 0.5s ease;
+
+    .menu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      height: auto;
+      padding-bottom: 1rem;
+      border-bottom: solid 1px var(--dark-grey);
+
+      img {
+        width: auto;
+        height: 30px;
+      }
+      .close-menu-btn {
+        color: var(--dark-green);
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+    }
+    .menu-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+
+      button.support-btn{
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border-top: solid 1px var(--dark-grey);
+      }
+      button.account-btn{
+        padding: 1rem;
+      }
+      button:hover {
+        background-color: var(--grey);
+      }
+      ul, div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        height: 100%;
+
+        li {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 1rem;
+          padding: 0.5rem 1rem;
+          font-size: 0.8rem;
+          background-color: var(--white);
+          cursor: pointer;
+          transition: all 0.2s ease;
+          position: relative;
+
+          &:hover {
+            background-color: var(--grey);
+          }
+        }
+        .angle-icon{
+          position: absolute;
+          right: 0;
+          margin-right: 1rem;
+        }
+        .sub-menu {
+          display: block;
+          margin-left: 1rem;
+          border-left: solid 2px var(--grey);
+          position: relative;
+          height: 200px;
+          overflow-y: scroll;
+          animation: openCategoryList 0.5s ease;
+          transition: all 0.2s ease;
+
+          li::before {
+            content: "-";
+            color: var(--dark-green);
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+            transform: translateY(-0.25rem);
+            color: var(--grey);
+          }
+        }
+      }
+    }
+  }
+
+  .empty-space {
+    flex: 1;
+  }
+}
+
+@keyframes openSideMenu {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes openCategoryList {
+  from {
+    height: 0;
+  }
+  to {
+    height: 200px;
+  }
+}

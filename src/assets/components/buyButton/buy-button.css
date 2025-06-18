@@ -1,0 +1,28 @@
+.buy{
+    background-color: var(--light-green);
+    color: var(--white);
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.buy:hover{
+    cursor: pointer;
+    backdrop-filter: brightness(1.2);
+}
+
+.add-to-cart{
+    background: none;
+    color: var(--light-green);
+    border: solid 1px var(--light-green);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.add-to-cart:hover{
+    cursor: pointer;
+    background-color: var(--light-green);
+    color: var(--white);
+}

@@ -1,0 +1,214 @@
+@import url("./../../styles/colors.css");
+@import url("./../../styles/animations.css");
+
+div {
+  animation: entryAnim 0.5s ease-in-out;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  padding: 0 8rem;
+  margin-bottom: 4rem;
+
+  nav {
+    width: 100%;
+    display: flex;
+    padding: 2rem 0;
+
+    button {
+      background: none;
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--dark-grey);
+      transition: all 0.2s ease-in-out;
+    }
+    button:hover {
+      cursor: pointer;
+      color: var(--light-green);
+    }
+  }
+  .p-container {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+  }
+  .product-img-container,
+  .product-info {
+    width: 50%;
+  }
+  .product-img-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+
+    img {
+      background-color: var(--grey);
+      width: 100%;
+      height: auto;
+      padding: 6rem;
+      aspect-ratio: 1/1;
+      object-fit: contain;
+    }
+
+    .more-img-container {
+      display: flex;
+      width: 100%;
+      gap: 1rem;
+
+      img {
+        width: 25%;
+        height: auto;
+        padding: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--black);
+
+    .top-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .rating {
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+        gap: 0.2rem;
+
+        .star-rating {
+          display: flex;
+          gap: 0.2rem;
+          i {
+            color: var(--light-green);
+          }
+        }
+      }
+    }
+    .price {
+      p {
+        color: var(--light-green);
+        font-weight: bold;
+        font-size: 2rem;
+        display: flex;
+
+        span {
+          font-size: 1rem;
+          transform: translateY(0.4rem);
+        }
+      }
+    }
+    .colors {
+      h3 {
+        font-size: 1rem;
+      }
+      div {
+        display: flex;
+        gap: 0.5rem;
+
+        button {
+          color: var(--white);
+          border: none;
+          padding: 1rem;
+          border-radius: 50%;
+          border: solid 1px var(--dark-grey);
+        }
+        button:hover {
+          cursor: pointer;
+          border: solid 1px var(--light-green);
+        }
+      }
+    }
+    .checkout {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .quantity {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        div {
+          border-radius: 2rem;
+          background-color: var(--grey);
+          overflow: hidden;
+        }
+
+        button,
+        input {
+          width: 3rem;
+          height: 3rem;
+          border: none;
+          background: none;
+          text-align: center;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        input:focus {
+          outline: none;
+        }
+        button:hover {
+          cursor: pointer;
+          backdrop-filter: brightness(0.95);
+        }
+        p {
+          font-size: 0.8rem;
+
+          span {
+            font-weight: bold;
+            color: var(--light-green);
+          }
+        }
+      }
+      .buy-now {
+        display: flex;
+        gap: 2rem;
+      }
+    }
+    .delivery {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      span {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        gap: 0.5rem;
+
+        span {
+          color: var(--light-green);
+        }
+      }
+      a {
+        color: var(--light-green);
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}

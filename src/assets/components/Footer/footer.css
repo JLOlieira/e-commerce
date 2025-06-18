@@ -1,0 +1,116 @@
+.footer{
+    width: auto;
+    height: max-content;
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .footer-container{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 5rem;
+        padding: 4rem;
+        border-top: solid 2px var(--grey);
+        border-bottom: solid 2px var(--grey);
+
+        h3{
+            font-size: 1.1rem;
+            color: var(--dark-grey);
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.8rem;
+            color: var(--dark-grey);
+            font-weight: normal;
+        }
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 30%;
+
+            img{
+                width: 150px;
+                height: auto;
+            }
+        }
+        .accepted-payments-container{
+            width: 100%;
+            margin-top: 2rem;
+        }
+        .accepted-payments{
+            display: grid;
+            grid-template-columns: repeat( auto-fill, minmax(50px, 1fr));
+            width: 100%;
+            gap: 0.5rem;
+            margin-top: 1rem;
+
+            img{
+                width: 100%;
+                height: 100%;
+                padding: 0.5rem;
+                border-radius: 6px;
+                background-color: var(--grey);
+                object-fit: contain;
+            }
+        }
+
+        .right{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            width: 70%;
+            gap: 4rem;
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 0.7rem;
+                width: fit-content;
+                
+                li{
+                    list-style: none;
+                    font-size: 0.8rem;
+                    transition: all 0.2s ease;
+                }
+                li:hover{
+                    color: var(--light-green);
+                    cursor: pointer;
+                    transform: translateX(5px);
+                }
+
+                h3{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+    .down-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: max-content;
+        padding: 2rem 4rem;
+        font-size: 0.8rem;
+        background-color: var(--dark-green);
+        color: var(--white);
+
+        div{
+            display: flex;
+            gap: 2rem;
+        }
+        span{
+            transition: all 0.2s ease;
+        }
+        span:hover{
+            color: var(--light-green);
+            cursor: pointer;
+        }
+    }
+}

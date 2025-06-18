@@ -1,0 +1,71 @@
+{
+  "todaysProducts": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Earbuds",
+      "description": "Compact and powerful earbuds with noise cancellation and 24h battery life.",
+      "price": 49.99,
+      "rating": 4.5,
+      "reviews": 128,
+      "image": "https://headphonesbrasil.shop/cdn/shop/files/minor-III-bluetooth-true-wireless-in-ear-earbuds-black-with-magnetic-pairs-3.png?v=1717542739&width=1445",
+      "colors": ["Black", "White", "Blue"],
+      "quantity": 100
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Gaming Keyboard",
+      "description": "RGB backlit mechanical keyboard with customizable keys and fast response.",
+      "price": 79.99,
+      "rating": 4.7,
+      "reviews": 214,
+      "image": "https://i5.walmartimages.com/seo/AULA-S2016-Mechanical-Gaming-Keyboard-104-Keys-Anti-Ghosting-USB-Wired-Hybrid-RGB-Backlit-Keyboard-for-Gamer-Laptop-Desktop-Blue-Switch-Black_e497f86a-27c1-4e58-a6f8-714fde17a3d9.e3d045cce5a5d9a33329f4709b9aac50.png",
+      "colors": ["Black", "White"],
+      "quantity": 65
+    },
+    {
+      "id": 3,
+      "name": "Smartwatch Pro X",
+      "description": "Advanced smartwatch with heart rate monitor, GPS, and 10-day battery.",
+      "price": 119.99,
+      "rating": 4.3,
+      "reviews": 96,
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1675175725/Croma%20Assets/Communication/Wearable%20Devices/Images/260042_0_rplnzk.png",
+      "colors": ["Black", "Silver", "Rose Gold"],
+      "quantity": 80
+    },
+    {
+      "id": 4,
+      "name": "Ultra HD 4K Projector",
+      "description": "Portable projector with 4K resolution and built-in stereo speakers.",
+      "price": 259.99,
+      "rating": 4.6,
+      "reviews": 56,
+      "image": "https://s.alicdn.com/@sc04/kf/Hf3aeee2e73994ac6924a6db8df73a2b9K.png",
+      "colors": ["White", "Gray"],
+      "quantity": 34
+    },
+    {
+      "id": 5,
+      "name": "Wireless Charging Pad",
+      "description": "Fast wireless charger compatible with most smartphones and earbuds.",
+      "price": 29.99,
+      "rating": 4.2,
+      "reviews": 73,
+      "image": "https://assets2.jabra.com/9/8/b/2/98b2494cb0d9ce7b4a5b3fd4ca9531021658b5bd_Jabra_wireless_charging_pad_100_65920000_00_p1.png",
+      "colors": ["Black", "Navy", "Red"],
+      "quantity": 120
+    },
+    {
+      "id": 6,
+      "name": "Gaming Mouse Pro",
+      "description": "Ergonomic gaming mouse with adjustable DPI and RGB lighting.",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews": 142,
+      "image": "https://cdn.awsli.com.br/2500x2500/2547/2547358/produto/347446614/mouse-gamer-redragon-invader-pro--rgb--10000dpi--8-botoes--wireless--preto--m719-6d8t3oe571.webp",
+      "colors": ["Black", "White"],
+      "quantity": 92
+    }
+  ],
+  "allProducts": []
+}

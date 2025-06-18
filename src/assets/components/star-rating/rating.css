@@ -1,0 +1,28 @@
+.star-rating {
+  position: relative;
+  display: inline-block;
+  width: calc(1em * 5); /* 5 estrelas */
+  height: 1em;
+  font-size: 16px; /* você pode mudar o tamanho aqui */
+}
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: url('/star-regular.svg') repeat-x;
+  background-size: 1em 1em; /* exatamente 5 estrelas cabem */
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: url('/star-solid.svg') repeat-x;
+  background-size: 1em 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.3s ease;
+}

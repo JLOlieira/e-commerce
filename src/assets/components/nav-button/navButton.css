@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    color: #252525;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+}
+.sort-by li{
+    background: none;
+    border: solid 2px #e7e7e7;
+}

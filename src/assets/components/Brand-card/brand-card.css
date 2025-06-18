@@ -1,0 +1,46 @@
+.brand-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--grey);
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: solid 1px transparent;
+    transition: all 0.3s ease;
+
+    img{
+        width: 3rem;
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-left: 1rem;
+
+        h3{
+            font-size: 1rem;
+            color: var(--dark-grey);
+            font-weight: 600;
+    
+        }
+        p{
+            font-size: 0.7rem;
+            color: var(--dark-grey);
+            font-weight: normal;
+        }
+    }
+}
+.brand-card:hover{
+    cursor: pointer;
+    border: solid 1px var(--dark-grey);
+    img{
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphones",
+        "image": "https://t2.tudocdn.net/720005?w=824&h=494"
+    },
+    {
+        "id": 2,
+        "name": "Computers & Laptops",
+        "image": "https://flexitdistribution.com/wp-content/uploads/2023/06/Significant-growth-is-projected-for-the-global-refurbished-computers-and-laptops-market-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gaming Gear",
+        "image": "https://img.freepik.com/premium-photo/top-view-gaming-gear_160097-846.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Smart Home",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24714702/236676_03_From_brilliant_to_basic_here_are_our_smart_home_setups_SHaddad.jpg?quality=90&strip=all&crop=16.666666666667,0,66.666666666667,100"
+    },
+    {
+        "id": 5,
+        "name": "Wearables",
+        "image": "https://imgproxy.divecdn.com/2CI5pwyz0BamkgUioMzWlKA8-U7P2KuU6uDr_tqgRJs/g:nowe:0:64/c:1237:699/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjAtMDgtMjRfYXRfMTAuMTIuNTRfQU0ucG5n.webp"
+    },
+    {
+        "id": 6,
+        "name": "Audio & Video",
+        "image": "https://blog.saramonic.com.br/wp-content/uploads/2025/05/Design-sem-nome-3.jpg"
+    }
+]

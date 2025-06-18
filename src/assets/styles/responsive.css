@@ -1,0 +1,196 @@
+@media screen and (max-width: 768px) {
+  .App {
+    .container {
+      padding: 0 1rem;
+    }
+    .top-bar {
+      padding: 0 1rem;
+
+      .get-discount {
+        display: none;
+      }
+    }
+    header {
+      padding: 0;
+      transition: all 0.2s ease;
+
+      .header-nav {
+        display: none;
+      }
+
+      .logo {
+        margin: 0;
+      }
+
+      .mobile-btn {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 1rem;
+      }
+    }
+    .right-nav {
+      position: relative;
+      button {
+        padding: 1rem;
+      }
+      .account-btn,
+      .cart-btn {
+        display: none;
+      }
+      .search-bar {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+
+        input {
+          width: 0;
+          visibility: hidden;
+          padding-right: 3rem;
+        }
+      }
+    }
+    .hero-banner {
+      height: 250px;
+      overflow: hidden;
+
+      img {
+        width: 120%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        object-fit: cover;
+      }
+    }
+    .brands-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .discount-banner {
+      flex-direction: column-reverse;
+      padding: 2rem;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.3rem;
+          font-size: 0.8rem;
+
+          span {
+            font-size: 1rem;
+          }
+        }
+      }
+      .discount-banner-img {
+        width: 40%;
+      }
+    }
+    .categories-container {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+    .footer {
+      .footer-container {
+        flex-direction: column;
+        padding: 1rem;
+
+        .left,
+        .right {
+          width: 100%;
+          gap: 1.5rem;
+        }
+        .right {
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+          ul {
+            padding: 1rem 0;
+            border-top: solid 2px var(--grey);
+            width: 100%;
+          }
+        }
+        .accepted-payments-container {
+          width: 100%;
+        }
+        .accepted-payments {
+          grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+          width: 100%;
+        }
+      }
+      .down-footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 1rem 1rem;
+
+        div,
+        p {
+          width: 100%;
+          padding: 1rem 0;
+        }
+        div {
+          border-bottom: solid 1px var(--light-green);
+        }
+      }
+    }
+    .wrapper {
+      padding: 1rem;
+      width: 100%;
+
+      .p-container {
+        flex-direction: column;
+        width: 100%;
+
+        .product-img-container,
+        .product-info {
+          width: 100%;
+
+          .top-info {
+            h2 {
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .product-img-container {
+          flex-direction: row-reverse;
+          width: 100%;
+          height: fit-content;
+          align-items: flex-start;
+
+          img {
+            width: 80%;
+          }
+
+          .product-img-container {
+            flex-direction: column;
+          }
+          .more-img-container {
+            flex-direction: column;
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  button {
+    span {
+      display: none;
+    }
+  }
+}
